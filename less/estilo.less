@@ -1,1 +1,71 @@
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+@OpenSans:'Open Sans',sans-serif;
+
+.setFont(@size:16px, @weight:400, @color:#fff, @face:'Open Sans', sans-serif){
+	font-family:@face;
+	font-size:@size;
+	font-weight:@weight;
+	color:@color;
+}
+
+.setFontAwe(@size:16px,@color:#fff){
+	font-family:'faSolid';
+	font-size:@size;
+	color:@color;
+}
+
+.bgCover(){
+	-webkit-background-position:center center;
+	-moz-background-position:center center;
+	-o-background-position:center center;
+	background-position:center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+html{
+}
+
+body{
+	margin:0;
+}
+
+p{
+	margin:0;
+}
+
+.total{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:#e1e1e1;
+	.bgCover();
+	background-image:url('../img/bg4.jpg');
+	text-align:center;
+	img{
+		width:200px;
+		height:auto;
+		margin:70px 0 50px 0;
+	}
+	.conteudo{
+		margin:50px 0 0 0;
+		h1{
+			.setFont(28px,400,#fff,@OpenSans);
+			margin:0;
+			padding:0;
+		}
+		img{
+			width:150px;
+			height:auto;
+			margin:20px 0;
+		}
+		p{
+			.setFont(16px,400,#fff,@OpenSans);
+		}
+	}
+}
