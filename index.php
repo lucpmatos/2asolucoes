@@ -14,19 +14,19 @@
     <div class="total">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-sm-12">
                     <img src="img/logo-2A-03.png" alt="Logo 2A Soluções">
                 </div>
-                <div class="col-12">
+                <div class="col-sm-12">
                     <hr>
                 </div>
-                <div class="col-12">
+                <div class="col-sm-12">
                     <div class="conteudo">
                         <h1>Representante oficial:</h1>
                         <img src="img/lumilight.png" alt="Logo Lumilight">
                         <p>Contato:</p>
                         <p class="phone"><i class="fas fa-phone"></i> +55 21 98015-2221 | +55 21 98271-3737</p>
-                        <p class="email"><i class="fas fa-envelope"></i> andreluis@2asolucoes.com.br | andrecamargo@2asolucoes.com.br</p>
+                        <p class="email"><i class="fas fa-envelope"></i> contato@2asolucoes.com.br</p>
                     </div>
                 </div>
             </div>
