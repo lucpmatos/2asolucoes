@@ -22,10 +22,10 @@
                 </div>
                 <div class="col-sm-12">
                     <div class="conteudo">
-                        <h1>Representante oficial:</h1>
+                        <h1>Distribuidor oficial:</h1>
                         <img src="img/lumilight.png" alt="Logo Lumilight">
                         <p>Contato:</p>
-                        <p class="phone"><i class="fas fa-phone"></i> +55 21 98015-2221 | +55 21 98271-3737</p>
+                        <p class="phone"><i class="fas fa-phone"></i> +55 21 4112-1080</p>
                         <p class="email"><i class="fas fa-envelope"></i> contato@2asolucoes.com.br</p>
                     </div>
                 </div>
